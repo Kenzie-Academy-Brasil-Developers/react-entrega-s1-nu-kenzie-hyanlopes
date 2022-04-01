@@ -1,0 +1,117 @@
+.formCobranca {
+  height: 351px;
+  width: 100%;
+  max-width: 363px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #ffffff;
+  /* grey-2 */
+
+  border: 1px solid #e9ecef;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.formCobranca .sectionDescricao {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.formCobranca .sectionDescricao label {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.formCobranca .sectionDescricao .inputDescricao {
+  height: 52.80000305175781px;
+  width: 100%;
+  max-width: 314px;
+
+  border-radius: 8px;
+  padding: 0px, 16px, 0px, 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 16px;
+  background: #f8f9fa;
+  /* grey-0 */
+
+  border: 2px solid #f8f9fa;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.formCobranca .sectionDescricao p {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #868e96;
+}
+.formCobranca .valorArea_labels,
+.valorArea_inputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.formCobranca .valorArea_labels label {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.formCobranca .valorArea_inputs input,
+select {
+  padding: 0px 16px;
+
+  /* grey-0 */
+
+  background: #f8f9fa;
+  /* grey-0 */
+
+  border: 2px solid #f8f9fa;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  height: 48px;
+  width: 100%;
+  max-width: 128px;
+}
+.formCobranca button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px;
+
+  width: 100%;
+  max-width: 314px;
+  height: 48px;
+
+  /* color-primary */
+
+  background: #fd377e;
+  /* color-primary */
+
+  border: 2px solid #fd377e;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}

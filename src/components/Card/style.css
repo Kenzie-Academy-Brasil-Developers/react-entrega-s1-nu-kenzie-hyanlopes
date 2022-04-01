@@ -1,0 +1,63 @@
+li {
+  background: #f8f9fa;
+  border-radius: 8px;
+  height: 87.35185241699219px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-left: 5px solid #e9ecef;
+}
+.verde {
+  border-left: 5px solid #03b898;
+}
+.salario-entrada {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.salario-entrada h2 {
+  margin-bottom: 5px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.salario-entrada p {
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #868e96;
+  text-align: left;
+}
+.valor-delete {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 160px;
+}
+.valor-delete p {
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.valor-delete button {
+  height: 22px;
+  padding: 4px;
+  /* grey-2 */
+  border: none;
+  background: #e9ecef;
+  border-radius: 2.46154px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  cursor: pointer;
+}
+.valor-delete button:hover {
+  border: 1px solid black;
+}

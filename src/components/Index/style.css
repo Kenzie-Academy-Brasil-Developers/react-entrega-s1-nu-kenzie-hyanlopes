@@ -1,0 +1,55 @@
+.index {
+  height: 100vh;
+  width: 100vw;
+  background-color: #212529;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index-root {
+  display: flex;
+}
+.index-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 90px 60px 90px 120px;
+  width: 340px;
+}
+.index-msg h1 {
+  font-size: 32px;
+  color: #fd377e;
+}
+.index-msg h1 span {
+  color: white;
+}
+.index-msg p {
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.index-msg .alert-msg {
+  font-size: 18px;
+  font-weight: normal;
+}
+.index-msg button {
+  height: 48px;
+  width: 241px;
+
+  border: none;
+  border-radius: 8px;
+
+  padding: 13px, 20px, 13px, 20px;
+
+  background: hsla(338, 98%, 60%, 1);
+  color: white;
+
+  font-weight: bolder;
+  font-size: 20px;
+
+  cursor: pointer;
+}
