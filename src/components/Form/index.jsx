@@ -14,6 +14,9 @@ const Form = ({ list, callBack }) => {
         obj[inputs[i].name] = inputs[i].value;
       }
     }
+    if (obj.type === "saida") {
+      obj.value = -obj.value;
+    }
     atualizandoArrList(obj);
   };
 
