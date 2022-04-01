@@ -159,4 +159,13 @@
   .main-root main .nav-bar {
     width: 320px;
   }
+  .sectionForm {
+    width: 80vw;
+  }
+  .sectionPrice {
+    width: 80vw;
+  }
+  .divMaior {
+    width: 60vw;
+  }
 }

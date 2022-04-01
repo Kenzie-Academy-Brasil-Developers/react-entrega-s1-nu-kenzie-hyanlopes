@@ -22,7 +22,7 @@ const Home = ({ callBack, listTransactions, setListTransactions }) => {
         <button onClick={callBack}>Inicio</button>
       </header>
       <main>
-        <section>
+        <section className="sectionForm">
           {listTransactions.length > 0 ? (
             <>
               <Form list={listTransactions} callBack={setListTransactions} />

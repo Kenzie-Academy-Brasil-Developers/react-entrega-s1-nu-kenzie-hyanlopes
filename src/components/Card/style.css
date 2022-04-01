@@ -61,3 +61,11 @@ li {
 .valor-delete button:hover {
   border: 1px solid black;
 }
+@media (max-width: 400px) {
+  li {
+    width: 80vw;
+  }
+  .valor-delete p {
+    margin-left: 10px;
+  }
+}
