@@ -148,4 +148,15 @@
   .sem-cards .container-vazio {
     width: 80vw;
   }
+  .nav-bar-financias {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-root main {
+    align-items: flex-start;
+  }
+  .main-root main .nav-bar {
+    width: 320px;
+  }
 }

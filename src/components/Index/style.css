@@ -61,6 +61,9 @@
   .index-msg {
     width: 200px;
   }
+  .nav-bar-financias {
+    width: 400px;
+  }
 }
 @media (max-width: 820px) {
   .index-img {
